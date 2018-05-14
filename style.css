@@ -40,10 +40,36 @@ header h2 {
     margin-right: auto;
     line-height: 40%;
     font-weight: lighter;
-   
-
+  
     top: 50px;
   }
+}
+
+@media (min-width: 700px) {
+  footer h4 {
+      font-family: 'Open Sans Condensed', sans-serif;
+      color: #111;
+      font-size: 15px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 40%;
+      font-weight: lighter;
+      top: 50px;
+      text-decoration: black;
+    }
+  }
+
+@media (min-width: 700px) {
+  footer h4 a{
+    text-decoration: none;
+    text-decoration-color: #111;
+  }
+
+a{
+  text-decoration: none;
+  text-decoration-color: #111;
+  color: #111;
 }
 
 @media (min-width: 700px) {
